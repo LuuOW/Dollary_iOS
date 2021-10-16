@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4489C60271B8CDD00A2D878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4489C5F271B8CDD00A2D878 /* Main.storyboard */; };
+		A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E3271A54A2001C7889 /* DollaryApp.swift */; };
+		A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E5271A54A2001C7889 /* ContentView.swift */; };
+		A4B501E8271A54A3001C7889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B501E7271A54A3001C7889 /* Assets.xcassets */; };
+		A4B501EB271A54A3001C7889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B501EA271A54A3001C7889 /* Preview Assets.xcassets */; };
+		A4B501F5271A54A4001C7889 /* DollaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501F4271A54A4001C7889 /* DollaryTests.swift */; };
+		A4B501FF271A54A4001C7889 /* DollaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501FE271A54A4001C7889 /* DollaryUITests.swift */; };
+		A4B50201271A54A4001C7889 /* DollaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4B501F1271A54A4001C7889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B501D8271A54A1001C7889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B501DF271A54A2001C7889;
+			remoteInfo = Dollary;
+		};
+		A4B501FB271A54A4001C7889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B501D8271A54A1001C7889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B501DF271A54A2001C7889;
+			remoteInfo = Dollary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4489C5F271B8CDD00A2D878 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A4B501E0271A54A2001C7889 /* Dollary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dollary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B501E3271A54A2001C7889 /* DollaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryApp.swift; sourceTree = "<group>"; };
+		A4B501E5271A54A2001C7889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4B501E7271A54A3001C7889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B501EA271A54A3001C7889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4B501F0271A54A4001C7889 /* DollaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B501F4271A54A4001C7889 /* DollaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryTests.swift; sourceTree = "<group>"; };
+		A4B501FA271A54A4001C7889 /* DollaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B501FE271A54A4001C7889 /* DollaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITests.swift; sourceTree = "<group>"; };
+		A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B501DD271A54A2001C7889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501ED271A54A4001C7889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501F7271A54A4001C7889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4489C5C271B8C6700A2D878 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4489C5D271B8C7300A2D878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4489C5E271B8C9100A2D878 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4B501D7271A54A1001C7889 = {
+			isa = PBXGroup;
+			children = (
+				A4B501E2271A54A2001C7889 /* Dollary */,
+				A4B501F3271A54A4001C7889 /* DollaryTests */,
+				A4B501FD271A54A4001C7889 /* DollaryUITests */,
+				A4B501E1271A54A2001C7889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B501E1271A54A2001C7889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B501E0271A54A2001C7889 /* Dollary.app */,
+				A4B501F0271A54A4001C7889 /* DollaryTests.xctest */,
+				A4B501FA271A54A4001C7889 /* DollaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B501E2271A54A2001C7889 /* Dollary */ = {
+			isa = PBXGroup;
+			children = (
+				A4489C5E271B8C9100A2D878 /* ViewModels */,
+				A4489C5D271B8C7300A2D878 /* Models */,
+				A4489C5C271B8C6700A2D878 /* Controller */,
+				A4B501E3271A54A2001C7889 /* DollaryApp.swift */,
+				A4B501E5271A54A2001C7889 /* ContentView.swift */,
+				A4B501E7271A54A3001C7889 /* Assets.xcassets */,
+				A4B501E9271A54A3001C7889 /* Preview Content */,
+				A4489C5F271B8CDD00A2D878 /* Main.storyboard */,
+			);
+			path = Dollary;
+			sourceTree = "<group>";
+		};
+		A4B501E9271A54A3001C7889 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4B501EA271A54A3001C7889 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4B501F3271A54A4001C7889 /* DollaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B501F4271A54A4001C7889 /* DollaryTests.swift */,
+			);
+			path = DollaryTests;
+			sourceTree = "<group>";
+		};
+		A4B501FD271A54A4001C7889 /* DollaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B501FE271A54A4001C7889 /* DollaryUITests.swift */,
+				A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */,
+			);
+			path = DollaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B501DF271A54A2001C7889 /* Dollary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B50204271A54A4001C7889 /* Build configuration list for PBXNativeTarget "Dollary" */;
+			buildPhases = (
+				A4B501DC271A54A2001C7889 /* Sources */,
+				A4B501DD271A54A2001C7889 /* Frameworks */,
+				A4B501DE271A54A2001C7889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dollary;
+			productName = Dollary;
+			productReference = A4B501E0271A54A2001C7889 /* Dollary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4B501EF271A54A4001C7889 /* DollaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B50207271A54A4001C7889 /* Build configuration list for PBXNativeTarget "DollaryTests" */;
+			buildPhases = (
+				A4B501EC271A54A4001C7889 /* Sources */,
+				A4B501ED271A54A4001C7889 /* Frameworks */,
+				A4B501EE271A54A4001C7889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B501F2271A54A4001C7889 /* PBXTargetDependency */,
+			);
+			name = DollaryTests;
+			productName = DollaryTests;
+			productReference = A4B501F0271A54A4001C7889 /* DollaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4B501F9271A54A4001C7889 /* DollaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B5020A271A54A4001C7889 /* Build configuration list for PBXNativeTarget "DollaryUITests" */;
+			buildPhases = (
+				A4B501F6271A54A4001C7889 /* Sources */,
+				A4B501F7271A54A4001C7889 /* Frameworks */,
+				A4B501F8271A54A4001C7889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B501FC271A54A4001C7889 /* PBXTargetDependency */,
+			);
+			name = DollaryUITests;
+			productName = DollaryUITests;
+			productReference = A4B501FA271A54A4001C7889 /* DollaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B501D8271A54A1001C7889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A4B501DF271A54A2001C7889 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A4B501EF271A54A4001C7889 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4B501DF271A54A2001C7889;
+					};
+					A4B501F9271A54A4001C7889 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4B501DF271A54A2001C7889;
+					};
+				};
+			};
+			buildConfigurationList = A4B501DB271A54A1001C7889 /* Build configuration list for PBXProject "Dollary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B501D7271A54A1001C7889;
+			productRefGroup = A4B501E1271A54A2001C7889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B501DF271A54A2001C7889 /* Dollary */,
+				A4B501EF271A54A4001C7889 /* DollaryTests */,
+				A4B501F9271A54A4001C7889 /* DollaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B501DE271A54A2001C7889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4489C60271B8CDD00A2D878 /* Main.storyboard in Resources */,
+				A4B501EB271A54A3001C7889 /* Preview Assets.xcassets in Resources */,
+				A4B501E8271A54A3001C7889 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501EE271A54A4001C7889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501F8271A54A4001C7889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B501DC271A54A2001C7889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */,
+				A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501EC271A54A4001C7889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B501F5271A54A4001C7889 /* DollaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B501F6271A54A4001C7889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B50201271A54A4001C7889 /* DollaryUITestsLaunchTests.swift in Sources */,
+				A4B501FF271A54A4001C7889 /* DollaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4B501F2271A54A4001C7889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B501DF271A54A2001C7889 /* Dollary */;
+			targetProxy = A4B501F1271A54A4001C7889 /* PBXContainerItemProxy */;
+		};
+		A4B501FC271A54A4001C7889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B501DF271A54A2001C7889 /* Dollary */;
+			targetProxy = A4B501FB271A54A4001C7889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4B50202271A54A4001C7889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4B50203271A54A4001C7889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B50205271A54A4001C7889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dollary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.Dollary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4B50206271A54A4001C7889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dollary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.Dollary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4B50208271A54A4001C7889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.DollaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dollary.app/Dollary";
+			};
+			name = Debug;
+		};
+		A4B50209271A54A4001C7889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.DollaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dollary.app/Dollary";
+			};
+			name = Release;
+		};
+		A4B5020B271A54A4001C7889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.DollaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dollary;
+			};
+			name = Debug;
+		};
+		A4B5020C271A54A4001C7889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucaskempe.DollaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dollary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B501DB271A54A1001C7889 /* Build configuration list for PBXProject "Dollary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B50202271A54A4001C7889 /* Debug */,
+				A4B50203271A54A4001C7889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B50204271A54A4001C7889 /* Build configuration list for PBXNativeTarget "Dollary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B50205271A54A4001C7889 /* Debug */,
+				A4B50206271A54A4001C7889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B50207271A54A4001C7889 /* Build configuration list for PBXNativeTarget "DollaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B50208271A54A4001C7889 /* Debug */,
+				A4B50209271A54A4001C7889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B5020A271A54A4001C7889 /* Build configuration list for PBXNativeTarget "DollaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B5020B271A54A4001C7889 /* Debug */,
+				A4B5020C271A54A4001C7889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B501D8271A54A1001C7889 /* Project object */;
+}
