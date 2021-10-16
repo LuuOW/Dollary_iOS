@@ -15,6 +15,7 @@
 		A4B501F5271A54A4001C7889 /* DollaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501F4271A54A4001C7889 /* DollaryTests.swift */; };
 		A4B501FF271A54A4001C7889 /* DollaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501FE271A54A4001C7889 /* DollaryUITests.swift */; };
 		A4B50201271A54A4001C7889 /* DollaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */; };
+		A4E36A58271B94190057E0A1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36A57271B94190057E0A1 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A4B501FA271A54A4001C7889 /* DollaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B501FE271A54A4001C7889 /* DollaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITests.swift; sourceTree = "<group>"; };
 		A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4E36A57271B94190057E0A1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		A4B501E2271A54A2001C7889 /* Dollary */ = {
 			isa = PBXGroup;
 			children = (
+				A4E36A56271B93DB0057E0A1 /* API Service */,
 				A4489C5E271B8C9100A2D878 /* ViewModels */,
 				A4489C5D271B8C7300A2D878 /* Models */,
 				A4489C5C271B8C6700A2D878 /* Controller */,
@@ -152,6 +155,14 @@
 				A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */,
 			);
 			path = DollaryUITests;
+			sourceTree = "<group>";
+		};
+		A4E36A56271B93DB0057E0A1 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				A4E36A57271B94190057E0A1 /* APIService.swift */,
+			);
+			path = "API Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */,
+				A4E36A58271B94190057E0A1 /* APIService.swift in Sources */,
 				A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
