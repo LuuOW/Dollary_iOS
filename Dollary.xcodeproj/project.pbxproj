@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43ABE91271CBB4000BFDCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43ABE90271CBB4000BFDCDC /* ViewController.swift */; };
 		A4489C60271B8CDD00A2D878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4489C5F271B8CDD00A2D878 /* Main.storyboard */; };
 		A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E3271A54A2001C7889 /* DollaryApp.swift */; };
 		A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E5271A54A2001C7889 /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 		A4B501FF271A54A4001C7889 /* DollaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501FE271A54A4001C7889 /* DollaryUITests.swift */; };
 		A4B50201271A54A4001C7889 /* DollaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */; };
 		A4E36A58271B94190057E0A1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36A57271B94190057E0A1 /* APIService.swift */; };
+		A4E36A5A271B952B0057E0A1 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36A59271B952B0057E0A1 /* Currency.swift */; };
+		A4E36A5C271BB2240057E0A1 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36A5B271BB2240057E0A1 /* CurrencyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43ABE90271CBB4000BFDCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4489C5F271B8CDD00A2D878 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4B501E0271A54A2001C7889 /* Dollary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dollary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B501E3271A54A2001C7889 /* DollaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryApp.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		A4B501FE271A54A4001C7889 /* DollaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITests.swift; sourceTree = "<group>"; };
 		A4B50200271A54A4001C7889 /* DollaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A4E36A57271B94190057E0A1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A4E36A59271B952B0057E0A1 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		A4E36A5B271BB2240057E0A1 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		A4489C5C271B8C6700A2D878 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A43ABE90271CBB4000BFDCDC /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 		A4489C5D271B8C7300A2D878 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A4E36A59271B952B0057E0A1 /* Currency.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 		A4489C5E271B8C9100A2D878 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A4E36A5B271BB2240057E0A1 /* CurrencyViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -296,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43ABE91271CBB4000BFDCDC /* ViewController.swift in Sources */,
+				A4E36A5A271B952B0057E0A1 /* Currency.swift in Sources */,
+				A4E36A5C271BB2240057E0A1 /* CurrencyViewModel.swift in Sources */,
 				A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */,
 				A4E36A58271B94190057E0A1 /* APIService.swift in Sources */,
 				A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */,
