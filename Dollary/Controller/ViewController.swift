@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     
     private var curreyncyViewModel : CurrencyViewModel!
     
-    private var dataSource : EmployeeTableViewDataSource<EmployeeTableViewCell,EmployeeData>!
-    
+//    private var dataSource : EmployeeTableViewDataSource<EmployeeTableViewCell,EmployeeData>!
+//    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,15 +32,15 @@ class ViewController: UIViewController {
     
     func updateDataSource(){
         
-        self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeeTableViewCell", items: self.employeeViewModel.empData.data, configureCell: { (cell, evm) in
-            cell.employeeIdLabel.text = evm.id
-            cell.employeeNameLabel.text = evm.employeeName
-        })
-        
-        DispatchQueue.main.async {
-            self.employeeTableView.dataSource = self.dataSource
-            self.employeeTableView.reloadData()
-        }
+//        self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeeTableViewCell", items: self.employeeViewModel.empData.data, configureCell: { (cell, evm) in
+//            cell.employeeIdLabel.text = evm.id
+//            cell.employeeNameLabel.text = evm.employeeName
+//        })
+//
+//        DispatchQueue.main.async {
+//            self.employeeTableView.dataSource = self.dataSource
+//            self.employeeTableView.reloadData()
+//        }
     }
     
 }
