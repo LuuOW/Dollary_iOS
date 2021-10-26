@@ -9,18 +9,21 @@ import Foundation
 
 struct Taxes {
     
-    let imp21 = 0.21
-    let imp30 = 0.3
-    let imp35 = 0.35
-    let imp50 = 0.5
+    func calculateTax() {
     
-    let impuestoTotalDigital = imp21 + imp30 + imp35
-    
-    let impuestoTotalFisico = imp30 + imp35
-    
-    let impuestoTotalFisico50 = imp30 + imp35 + imp50
-    
-    let impuestoTotalDivisa = imp30 + imp35
+        let imp21 = 0.21
+        let imp30 = 0.3
+        let imp35 = 0.35
+        let imp50 = 0.5
+        
+        var impuestoTotalDigital = imp21 + imp30 + imp35
+        
+        let impuestoTotalFisico = imp30 + imp35
+        
+        let impuestoTotalFisico50 = imp30 + imp35 + imp50
+        
+        let impuestoTotalDivisa = imp30 + imp35
+    }
     
     
 }
