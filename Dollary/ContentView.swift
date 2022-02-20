@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var currencyViewModel = CurrencyViewModel()
+    
     var body: some View {
-        Text("Dollary")
-            .padding()
+        NavigationView {
+            VStack {
+                Text(currencyViewModel.title)
+                Text(String(currencyViewModel.dollarPrice))
+                Text(String(currencyViewModel.euroPrice))
+            }
+            .navigationTitle("Dollary MVVM")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
 

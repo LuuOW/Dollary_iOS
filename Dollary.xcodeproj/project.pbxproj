@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A43ABE91271CBB4000BFDCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43ABE90271CBB4000BFDCDC /* ViewController.swift */; };
-		A4875F052724E28B00DA54F1 /* Taxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4875F042724E28B00DA54F1 /* Taxes.swift */; };
 		A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E3271A54A2001C7889 /* DollaryApp.swift */; };
 		A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B501E5271A54A2001C7889 /* ContentView.swift */; };
 		A4B501E8271A54A3001C7889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B501E7271A54A3001C7889 /* Assets.xcassets */; };
@@ -39,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A43ABE90271CBB4000BFDCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4875F042724E28B00DA54F1 /* Taxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxes.swift; sourceTree = "<group>"; };
 		A4B501E0271A54A2001C7889 /* Dollary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dollary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B501E3271A54A2001C7889 /* DollaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaryApp.swift; sourceTree = "<group>"; };
 		A4B501E5271A54A2001C7889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,19 +77,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4489C5C271B8C6700A2D878 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A43ABE90271CBB4000BFDCDC /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		A4489C5D271B8C7300A2D878 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				A4E36A59271B952B0057E0A1 /* Currency.swift */,
-				A4875F042724E28B00DA54F1 /* Taxes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,7 +119,6 @@
 				A4E36A56271B93DB0057E0A1 /* API Service */,
 				A4489C5E271B8C9100A2D878 /* ViewModels */,
 				A4489C5D271B8C7300A2D878 /* Models */,
-				A4489C5C271B8C6700A2D878 /* Controller */,
 				A4B501E3271A54A2001C7889 /* DollaryApp.swift */,
 				A4B501E5271A54A2001C7889 /* ContentView.swift */,
 				A4B501E7271A54A3001C7889 /* Assets.xcassets */,
@@ -304,11 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43ABE91271CBB4000BFDCDC /* ViewController.swift in Sources */,
 				A4E36A5A271B952B0057E0A1 /* Currency.swift in Sources */,
 				A4E36A5C271BB2240057E0A1 /* CurrencyViewModel.swift in Sources */,
 				A4B501E6271A54A2001C7889 /* ContentView.swift in Sources */,
-				A4875F052724E28B00DA54F1 /* Taxes.swift in Sources */,
 				A4E36A58271B94190057E0A1 /* APIService.swift in Sources */,
 				A4B501E4271A54A2001C7889 /* DollaryApp.swift in Sources */,
 			);
@@ -471,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dollary/Preview Content\"";
+				DEVELOPMENT_TEAM = HSH794KJSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -500,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dollary/Preview Content\"";
+				DEVELOPMENT_TEAM = HSH794KJSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

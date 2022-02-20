@@ -14,9 +14,6 @@ struct Currency: Decodable {
 
 struct CurrencyRates: Decodable {
     let ARS: Float
-    
-    enum CodingKeys: String, CodingKey {
-        case ARS = "ARS"
-    }
-    
+    let EUR: Float
+
 }
