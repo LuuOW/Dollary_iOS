@@ -9,15 +9,12 @@ import Foundation
 
 class APIService :  NSObject {
     
-    private let sourcesURL = URL(string: "http://dummy.restapiexample.com/api/v1/employees")!
+    private let sourcesURL = URL(string: "https://open.er-api.com/v6/latest/USD")!
     
-    func apiToGetCurrencyData(completion : @escaping (Currency) -> ()){
+    func getCurrency(completion : @escaping (Currency) -> ()){
         URLSession.shared.dataTask(with: sourcesURL) { (data, urlResponse, error) in
             if let data = data {
-                
-                let jsonDecoder = JSONDecoder()
-                
-                let currencyData = try! jsonDecoder.decode(Currency.self, from: data)
+                let currencyData = try! JSONDecoder().decode(Currency.self, from: data)
                     completion(currencyData)
             }
         }.resume()

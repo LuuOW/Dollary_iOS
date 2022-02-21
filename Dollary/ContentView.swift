@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var currencyViewModel = CurrencyViewModel()
+    @State private var username: String = ""
     
     var body: some View {
         NavigationView {
@@ -16,6 +17,11 @@ struct ContentView: View {
                 Text(currencyViewModel.title)
                 Text(String(currencyViewModel.dollarPrice))
                 Text(String(currencyViewModel.euroPrice))
+                TextField("Ingrese el precio del producto", text: $username)
+                    .fixedSize()
+                    .border(.secondary)
+                Button("Calculate", action: currencyViewModel.calculateTaxes)
+                    .buttonStyle(.bordered)
             }
             .navigationTitle("Dollary MVVM")
         }

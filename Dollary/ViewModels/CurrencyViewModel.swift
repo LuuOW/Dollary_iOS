@@ -11,9 +11,14 @@ class CurrencyViewModel : ObservableObject {
     @Published var title: String = ""
     @Published var dollarPrice: Float = 0.00
     @Published var euroPrice: Float = 0.00
+    @Published var price: Float = 0.00
+    
+//    private var apiService : APIService!
+//    private(set) var currencyData : Currency!
     
     init() {
         fetchCurrency()
+        calculateTaxes()
     }
     
     func fetchCurrency() {
@@ -22,7 +27,7 @@ class CurrencyViewModel : ObservableObject {
             guard let data = data, error == nil else {
                 return
             }
-            
+
             do {
                 let model = try JSONDecoder().decode(Currency.self,
                                                      from: data)
@@ -36,6 +41,10 @@ class CurrencyViewModel : ObservableObject {
             }
         }
         task.resume()
+    }
+    
+    func calculateTaxes() {
+        var totalPrice = 1 + 1
     }
     
 }
